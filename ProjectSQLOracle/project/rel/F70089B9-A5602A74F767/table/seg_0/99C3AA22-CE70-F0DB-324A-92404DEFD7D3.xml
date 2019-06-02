@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99C3AA22-CE70-F0DB-324A-92404DEFD7D3" name="Doladowanie">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:59:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Boost_Id" id="38390F28-B2E8-C8F0-DDD9-D2424CFF0E7A">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:00:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Saldo" id="5D03A1FC-5E75-5903-0A65-8D2526E1CB6F">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:05:48 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumerUzyty" id="9374D469-EA45-C18B-97BB-4EB666AA9C53">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:18:44 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04F45FD6-E4D5-577D-F6CF-71B02A42A619" referredColumn="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</associations>
+</Column>
+<Column name="DataZakupu" id="3517EB66-EE5E-CA70-8FF0-3A35D038462C">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:05:48 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataUzycia" id="46CDF2A1-A03E-07A9-EEC5-C8666192C5A2">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:05:48 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>1970-01-01</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SerialNumber" id="875BD8D6-3783-190F-9B49-5298EBCDE587">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:18:02 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>33000000000000</autoIncrementStartWith>
+<autoIncrementMaxValue>33099999999999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="7B01D71D-9A10-B8AC-13AB-77CC72BCAE11">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:44:17 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<defaultValue>Aktywny</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27DF34AC-9686-9707-65C0-0002147F87A8" name="Doładowanie_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:00:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38390F28-B2E8-C8F0-DDD9-D2424CFF0E7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0FC0DC-690D-0A8C-8726-6392F5F70BB5" name="Doladowanie__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:22:50 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38390F28-B2E8-C8F0-DDD9-D2424CFF0E7A"/>
+<colUsage columnID="875BD8D6-3783-190F-9B49-5298EBCDE587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B0D162D-8217-966B-2D1C-6F4946EDEAA5" name="NumerUzyty">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:18:44 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9374D469-EA45-C18B-97BB-4EB666AA9C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AED0D1E-A81B-7196-34FA-726AD1FE90D6" name="GlobalProblem">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:07:24 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Global_Problem_Id" id="9E68091D-B679-B232-D127-A04F2AF021CA">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:08:35 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="2B544029-118B-BC75-072E-BF2FE31433C1">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:08:35 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataRozpoczecia" id="855A1A78-E7F8-008C-491C-89515D846E4B">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:08:35 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataZakonczenia" id="2D025741-45A5-0772-2A3C-D100326B0EDC">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:08:35 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_Id" id="00CCD8D0-75AB-FE20-BAA9-0E8CB350C2A4">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:48:21 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B002F38-A2DB-01DD-2728-9748418A99D1" referredColumn="73E1B4FF-7E57-CA3B-6787-F17AE71D45D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF36A1E2-4296-63F8-6238-3EC7502AA9A2" name="GlobalProblem_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:08:35 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E68091D-B679-B232-D127-A04F2AF021CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBEFBD30-47DD-0F04-54B5-B7A30B3D9BAC" name="GlobalProblem__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:40:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E68091D-B679-B232-D127-A04F2AF021CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7909559E-9ACE-9BB0-61B7-9C8702F8A66F" name="GlobalProblem_Usluga_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:48:21 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00CCD8D0-75AB-FE20-BAA9-0E8CB350C2A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

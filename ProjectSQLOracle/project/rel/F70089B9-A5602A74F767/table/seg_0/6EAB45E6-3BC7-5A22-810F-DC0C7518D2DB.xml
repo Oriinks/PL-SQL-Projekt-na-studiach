@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EAB45E6-3BC7-5A22-810F-DC0C7518D2DB" name="Sprzedaz">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 12:58:59 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sale_Id" id="2DBFEB7A-98B8-F4B6-6B9D-0E51DA5FC8EA">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 12:59:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelephoneNumber" id="FD6D310E-5AF1-9CA0-350A-F33AFE180642">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:00:26 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7025D985-55D0-9264-8D78-E15FA789D129" referredColumn="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</associations>
+</Column>
+<Column name="Customer_Id" id="AB5ACDD4-2990-D39A-8BA7-8C2F91E18F6C">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:00:58 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23CA3057-1A8A-1BFD-AC87-245D6AC2B5D3" referredColumn="16F7E855-36F9-14FC-F8FC-1059FD7D651C"/>
+</associations>
+</Column>
+<Column name="Employee_Id" id="C4101379-9AAE-562B-A99C-521045B1E061">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:01:53 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="681099F2-23A0-21D3-66DB-45FDFCE9588E" referredColumn="19501331-A406-44C4-BC8A-6FADEA56AFDA"/>
+</associations>
+</Column>
+<Column name="Product_Id" id="49F7D609-1663-151D-EBD3-FA5BC647FD7B">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:05:36 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="562107A7-DD6B-84E0-D961-2CCBE35B14E9" referredColumn="E97351A5-6274-E66F-7F06-3996C6B7AB30"/>
+</associations>
+</Column>
+<Column name="Ilosc_Produktu" id="CE4CE5B3-FE69-F3F6-77FD-778FDD1A5670">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 09:48:59 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B9F19F9-60D4-EC02-AC17-64B07D66B146" name="Sprzedaz_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 12:59:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DBFEB7A-98B8-F4B6-6B9D-0E51DA5FC8EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40A4C7A8-BD77-B7FF-BE29-6E32749B7DE8" name="Sprzedaz__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:47:29 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DBFEB7A-98B8-F4B6-6B9D-0E51DA5FC8EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5FED454-E2E0-6E7D-6997-6331BCD0ABEF" name="Sprzedaz_TelephoneNumber_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:00:26 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD6D310E-5AF1-9CA0-350A-F33AFE180642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC565348-ACA2-8D2D-D653-095F5786E6CF" name="Sprzedaz_Customer_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:00:58 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB5ACDD4-2990-D39A-8BA7-8C2F91E18F6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24EAC1EE-2CF4-DE66-27AF-42D041C2CB04" name="Sprzedaz_Employee_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:01:53 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4101379-9AAE-562B-A99C-521045B1E061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8331BEAE-59BA-9F93-2650-ED64814FF311" name="Sprzedaz_Product_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:05:36 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49F7D609-1663-151D-EBD3-FA5BC647FD7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

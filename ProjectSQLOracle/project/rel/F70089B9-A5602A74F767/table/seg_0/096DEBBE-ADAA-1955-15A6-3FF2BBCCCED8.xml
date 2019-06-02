@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="096DEBBE-ADAA-1955-15A6-3FF2BBCCCED8" name="TechnikalProblem">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:05:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Technikal_Problem_Id" id="8733F32D-8A31-06E3-264F-088DAA4E4AEE">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:07:20 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataZgloszenia" id="CEB32878-D791-08D9-11E4-4D66C639DFCF">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:07:20 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrzewidywanaDataWykonania" id="630E5960-0466-A381-77A9-8497634529A5">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:07:20 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="C3FF790D-5737-21D1-2CE5-D90C55CCC666">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:07:20 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelephoneNumber" id="9EB7BE2B-5B72-B155-F639-E041EF96663A">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:41:12 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63868BDE-92CD-2041-FA39-F1060DBD6B62" referredColumn="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</associations>
+</Column>
+<Column name="Rodzaj_Uslugi_Id" id="28591BBA-FFE9-BB91-4325-16E7931E73AC">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:48:58 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D36BEDA8-019A-C862-261E-CA1D081F80A1" referredColumn="73E1B4FF-7E57-CA3B-6787-F17AE71D45D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EF4A89D-D9FD-9A61-7682-8FE8FD5491C0" name="TechnikalProblem_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:07:20 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8733F32D-8A31-06E3-264F-088DAA4E4AEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C9EA978-7BF1-9DC4-62CC-0D677A176E42" name="TechnikalProblem__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:39:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8733F32D-8A31-06E3-264F-088DAA4E4AEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCFEC1D8-E092-9422-2C0B-4D05C2878690" name="TechnikalProblem_Number_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:41:12 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EB7BE2B-5B72-B155-F639-E041EF96663A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FDB3485-8C42-FE9E-F91A-38F499CF3985" name="TechnikalProblem_Usluga_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:48:58 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28591BBA-FFE9-BB91-4325-16E7931E73AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

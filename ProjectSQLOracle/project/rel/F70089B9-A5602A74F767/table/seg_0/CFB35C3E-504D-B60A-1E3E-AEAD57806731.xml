@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFB35C3E-504D-B60A-1E3E-AEAD57806731" name="Login">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:13:51 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_Id" id="804D2B04-82C5-E6BE-BB7A-7B9DA7751911">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:33:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<sourceType>Manual</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33944CCC-A194-358B-9E3F-4FA245435C75" referredColumn="19501331-A406-44C4-BC8A-6FADEA56AFDA"/>
+</associations>
+</Column>
+<Column name="LoginEmployer" id="EAE5C444-9022-656F-796E-A52F7D6D9037">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:16:51 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Passwd" id="DA2F1E0A-F0BD-5386-127F-343AEF777E61">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:16:51 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PoziomUprawnien" id="12007C00-866C-64DD-ED33-0DDAF4106EB0">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:16:51 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataHasla" id="6E8632DA-6480-8259-7F90-9A03E178A501">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:16:51 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44546D58-AD44-357A-0941-CA0D1B9FEE44" name="Login_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:23:32 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="804D2B04-82C5-E6BE-BB7A-7B9DA7751911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36E93AB4-2BA5-2ADA-9142-B6B36F0B8D4D" name="Login__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:17:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAE5C444-9022-656F-796E-A52F7D6D9037"/>
+<colUsage columnID="804D2B04-82C5-E6BE-BB7A-7B9DA7751911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9042D29-332A-2494-7556-D141063A4FEA" name="Login_Employee_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:33:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="804D2B04-82C5-E6BE-BB7A-7B9DA7751911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

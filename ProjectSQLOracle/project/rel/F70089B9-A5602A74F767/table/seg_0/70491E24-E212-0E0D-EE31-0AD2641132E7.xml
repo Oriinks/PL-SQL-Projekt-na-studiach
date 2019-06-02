@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70491E24-E212-0E0D-EE31-0AD2641132E7" name="Employee">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:00:38 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_Id" id="19501331-A406-44C4-BC8A-6FADEA56AFDA">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="3171B624-0F87-0B49-C084-B79B2EAD31C1">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<defaultValue>LastNameA</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="DDE84138-A4D6-79A2-F546-60773D48B3AF">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<defaultValue>LastNameB</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko" id="58E0446A-32E0-1957-B887-39C23A40270B">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT039</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokalizacja" id="9C908AB6-AAF4-806D-3D3D-8104C89CA641">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przelozony" id="B6B2D072-1653-8D71-CE16-B4240B963C76">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zatrudnienia" id="4C17D8EA-ACCC-F29F-9559-EB594E7D2173">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_kontraktu" id="0CADAD0B-3A8E-2B9D-603C-9FBDB7BE8B7A">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:03:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5956DEA0-F5BC-2E5F-0A95-4FF618475A86" name="Employee_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:23:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19501331-A406-44C4-BC8A-6FADEA56AFDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA8ED2C4-4C80-8A0F-7D11-31B816BB45EA" name="Employee__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:23:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19501331-A406-44C4-BC8A-6FADEA56AFDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

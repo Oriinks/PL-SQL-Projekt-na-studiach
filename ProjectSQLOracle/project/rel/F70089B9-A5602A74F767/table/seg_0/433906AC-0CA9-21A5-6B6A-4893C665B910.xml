@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="433906AC-0CA9-21A5-6B6A-4893C665B910" name="TelephoneNumber">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:48:40 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Telephone_Number_Id" id="71402B13-8587-551A-441B-181C55004742">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number" id="780F2A96-D9D8-F6AD-F57F-3F89900F15C2">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contract_Id" id="1B002063-818B-E325-4643-D8B65F242E3F">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:12:29 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0973593-D0EA-76FD-58A3-2729EC1D923B" referredColumn="136C779E-BDBB-A48F-48B0-D917CC910788"/>
+</associations>
+</Column>
+<Column name="Status" id="4DEF3BDA-46D4-E03E-B923-98FA0B31F19D">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<defaultValue>Aktywny</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateActivated" id="CE59CF7C-F7CA-4FC6-EEC9-74005978A2A5">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>1970-01-01</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateExpiration" id="C7DE82C0-4818-6726-EB52-F72425B57FDE">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>1970-01-01</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Balance" id="75BC5854-23E4-3A40-13F6-FD47935DBBFC">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="InternetBalance" id="D73CE6EC-4BB6-9D3A-0C4E-ADD10586BF2D">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,9,3</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CallBalance" id="2924EF5E-780F-32B5-9AC3-5D4A72319E65">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SmsBalance" id="7DD060D1-CE63-C0E5-75BF-FA9FD0376DD7">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 15:56:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelephoneModel" id="75BDF349-FFBC-63F2-3990-39C9F5E4B8F1">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 12:58:45 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FFE4D97-F5D0-D122-2874-95A3DD56C3D3" name="TelephoneNumber_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:14:57 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CAE7920-B59E-8407-A926-6D60CEF469F7" name="TelephoneNumber__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:26:36 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71402B13-8587-551A-441B-181C55004742"/>
+<colUsage columnID="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+<colUsage columnID="1B002063-818B-E325-4643-D8B65F242E3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF309DB8-9C28-D94E-95E1-A4B3DBE587DB" name="TelephoneNumber_Contract_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-21 13:12:29 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B002063-818B-E325-4643-D8B65F242E3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

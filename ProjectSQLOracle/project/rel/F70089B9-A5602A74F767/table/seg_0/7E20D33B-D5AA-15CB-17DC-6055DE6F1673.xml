@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E20D33B-D5AA-15CB-17DC-6055DE6F1673" name="GlobalProblemNumber">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:08:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Global_Problem_Number_Id" id="BE964CEB-249A-5F05-4EE8-3019725282C4">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:09:49 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelephoneNumber" id="372E1D40-1589-AA66-0455-90114458EF73">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:34:52 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94E89218-0BEA-21B5-9BD7-F4664C9813C9" referredColumn="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</associations>
+</Column>
+<Column name="Global_ProblemNum_Id" id="043383DE-D543-7B8F-7630-0F0FBBD7AEF1">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-26 18:35:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19297C4E-F7CB-BCC4-9E2C-E0DBA03297CC" referredColumn="9E68091D-B679-B232-D127-A04F2AF021CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8C75377-ABCC-39E1-ECD9-51C744C8EC0E" name="GlobalProblemNumber__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:41:21 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE964CEB-249A-5F05-4EE8-3019725282C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B366DDCE-C7DF-90C7-EBBF-7602B7343A27" name="Telephone_Number_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:34:52 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="372E1D40-1589-AA66-0455-90114458EF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7158C296-D7E5-7F59-E9FC-F0DA304783BE" name="GlobalProblemNumber_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-26 18:35:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="043383DE-D543-7B8F-7630-0F0FBBD7AEF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

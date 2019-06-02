@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78E440E5-A6A5-7A13-0315-F77FE83C7377" name="Typ_Connections">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:32:34 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="C0CEDB8D-2F51-92F8-5E7F-FBDE67636AAB">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:33:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_Typ" id="92277517-46C3-75FE-541D-CF31F5B06852">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:34:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="668D6752-2825-F40E-1F70-D60CE7A1D124" name="Typ_Connections_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:33:18 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0CEDB8D-2F51-92F8-5E7F-FBDE67636AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAA22119-AC6A-6809-21AE-270A0FEE70D4" name="Typ_Connections__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:38:55 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0CEDB8D-2F51-92F8-5E7F-FBDE67636AAB"/>
+<colUsage columnID="92277517-46C3-75FE-541D-CF31F5B06852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

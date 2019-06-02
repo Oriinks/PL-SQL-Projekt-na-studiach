@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C230F58-6D04-4616-57C3-D68B0731DDF5" containerWithKeyObject="EE96C551-A8EE-9446-20B0-4CE267917D19" localFKIndex="3FC6FEC2-A54C-1DF0-3FFE-E6DBFB648C14" name="Ticklery_TelephoneNumber_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:27:47 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<referredTableLongName>TelephoneNumber</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>433906AC-0CA9-21A5-6B6A-4893C665B910</referredTableID>
+<keyObject>9FFE4D97-F5D0-D122-2874-95A3DD56C3D3</keyObject>
+<referredKeyID>9FFE4D97-F5D0-D122-2874-95A3DD56C3D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

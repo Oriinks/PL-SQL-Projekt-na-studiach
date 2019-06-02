@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE96C551-A8EE-9446-20B0-4CE267917D19" name="Ticklery">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:56:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tickler_Id" id="25CA9027-ABA6-A41E-E5F5-D0B8346B8521">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:58:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="3D2508D2-947E-021A-6455-CA44BC7BFAE1">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:13:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataDodania" id="B97C466A-92C7-0D2B-247B-296E51C2FB1A">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:13:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ_Id_Typ" id="6EF33866-5850-00DB-327C-459E0D09AC28">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:51:23 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BD8D8F0-E5C5-EBF6-F4EE-AAFCD0F1932B" referredColumn="99673A31-D14E-61BD-5731-03EAAEB7D742"/>
+</associations>
+</Column>
+<Column name="TelephoneNumber_Number" id="B543BFA8-0DCB-3373-7E98-D65899195231">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:27:47 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C230F58-6D04-4616-57C3-D68B0731DDF5" referredColumn="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</associations>
+</Column>
+<Column name="Employe_Id" id="7C58FCB8-C17F-E49D-2503-DB7B16AA1974">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:36:03 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DA179A9-5C80-5036-D7F8-AAA5A96666D4" referredColumn="19501331-A406-44C4-BC8A-6FADEA56AFDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D1B6134-D72F-FE87-6A26-EA6455F99046" name="Ticklery_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:58:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25CA9027-ABA6-A41E-E5F5-D0B8346B8521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4CA82D8-0DE0-04EF-F14A-3E1839365BC8" name="Ticklery__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:47:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25CA9027-ABA6-A41E-E5F5-D0B8346B8521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FC6FEC2-A54C-1DF0-3FFE-E6DBFB648C14" name="Ticklery_TelephoneNumber_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:27:47 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B543BFA8-0DCB-3373-7E98-D65899195231"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="316ED5A8-D912-4A7D-97F0-6E23BBD7C671" name="Ticklery_Employee_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:36:03 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C58FCB8-C17F-E49D-2503-DB7B16AA1974"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B3533E3-7FA2-285D-4D97-5E6D16742AC2" name="Ticklery_Typ_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:51:23 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF33866-5850-00DB-327C-459E0D09AC28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C11565C-0E25-7EF5-8FC7-CF8FFD0BCD80" name="PaczkaPakietow">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 14:05:18 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pack_Packet_Id" id="CD1A54EE-BD7F-B2FD-70CA-F08517477903">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 14:06:21 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cykl" id="742DA49C-1A35-1FD8-64D9-4251A31AA7DC">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 14:06:21 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kwota" id="EFF37FE5-0E4D-3339-32E6-4994C60FA340">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 14:06:21 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0.00</defaultValue>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pakiet_Package_Id" id="2D7CAB1A-0761-7095-571F-0854D83507A7">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-28 22:17:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="942549BF-13B6-6551-7728-CAAD47B192D2" referredColumn="0134376D-70AA-85A6-A9F8-1FFCC4A6A770"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8A0F51D-9803-5516-2B0F-C9C5C2A58605" name="Paczkapakietow_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 14:06:24 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD1A54EE-BD7F-B2FD-70CA-F08517477903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F27986C7-0FAF-5FF7-87CF-D68D60007CF2" name="PaczkaPakietow_Pakiet_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-28 22:17:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D7CAB1A-0761-7095-571F-0854D83507A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

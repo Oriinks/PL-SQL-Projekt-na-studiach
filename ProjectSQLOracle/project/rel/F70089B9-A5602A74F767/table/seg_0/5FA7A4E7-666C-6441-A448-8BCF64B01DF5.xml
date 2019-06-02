@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FA7A4E7-666C-6441-A448-8BCF64B01DF5" name="Platnosci">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:10:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Payment_Id" id="429BF7ED-6BB8-F004-A3E1-8929ABF6F94B">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:10:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KwotaDoZaplaty" id="DCDA735E-4359-A1A0-59E6-A752ED2C47E3">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:10:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNaliczenia" id="A14F8F9B-2F89-CF1A-CE1F-6D11A2BA0187">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:54:07 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pack_Packet_Id" id="104CA4A9-96F7-B8B8-D858-608011F17B16">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:43:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="940BD42A-35C0-72CC-C70D-7A5CE1B08BE8" referredColumn="CD1A54EE-BD7F-B2FD-70CA-F08517477903"/>
+</associations>
+</Column>
+<Column name="Contract_Id" id="FD74177F-DD81-9322-57BE-BF9110AAB08B">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-28 20:30:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7F59641-0FEE-FBFD-7255-C3BB97C48C7F" referredColumn="136C779E-BDBB-A48F-48B0-D917CC910788"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C155ACE-E926-B1BD-56C1-19EAA2B602DB" name="Platnosci_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:45:18 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="429BF7ED-6BB8-F004-A3E1-8929ABF6F94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1FB8067-07BC-3B91-6CFA-AA962F480908" name="Platnosci_PaczkaPakietow_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 14:09:49 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="104CA4A9-96F7-B8B8-D858-608011F17B16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5AE2B83-AD85-C593-3867-4CA50450B6EF" name="Platnosci_Contract_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-28 20:30:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD74177F-DD81-9322-57BE-BF9110AAB08B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

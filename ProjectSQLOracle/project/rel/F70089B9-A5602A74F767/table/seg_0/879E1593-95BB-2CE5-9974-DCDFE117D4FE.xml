@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="879E1593-95BB-2CE5-9974-DCDFE117D4FE" name="Dokuments">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:11:03 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Doc_Id" id="E53C499A-7F90-49FC-62B1-E7EA14AF750B">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:12:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelephoneNumber" id="72F8A935-6816-E3BE-6F09-8932D120B708">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:29:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4411C63D-BAE2-7805-F04D-203D8A6C8835" referredColumn="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</associations>
+</Column>
+<Column name="ImageScan" id="C812F1F1-8C2C-BE67-EE42-D4A40A72AF0F">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:12:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="18A9B0FE-2940-3F54-A4C4-5DC6FBD45E00">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:12:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Id" id="47AABCB5-2FC4-BF03-5D23-F24C9DF63EB0">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:26:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACDFF217-60AE-BD6F-B4A1-F816ABEEDB31" referredColumn="16F7E855-36F9-14FC-F8FC-1059FD7D651C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ED847AB-69F8-4A09-0A00-C9C9174B39C2" name="Dokuments_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-26 18:20:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E53C499A-7F90-49FC-62B1-E7EA14AF750B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="831951CD-449E-0D70-98D0-E4A9433C1671" name="Dokuments__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:24:24 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E53C499A-7F90-49FC-62B1-E7EA14AF750B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="005DF456-AAF3-D1F6-480A-1320AD6E5F29" name="Dokuments_Customer_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:26:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47AABCB5-2FC4-BF03-5D23-F24C9DF63EB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD1704BF-D6F2-FFF3-20BA-C20769638833" name="TelephoneNumber">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:29:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72F8A935-6816-E3BE-6F09-8932D120B708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

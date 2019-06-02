@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6DF2D79-9757-5FCE-74C9-0F01D406AB8A" name="ListConnections">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:04:40 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="List_Connections_Id" id="4BF3E3EA-3C08-5F1F-BD17-415043C50C9E">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:53:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telephone_Number" id="BF034B94-1C1A-8AFB-24A5-3F02B08AE1BE">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:15:54 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57CC0213-539D-9DE7-E6E3-38390E4DD54A" referredColumn="780F2A96-D9D8-F6AD-F57F-3F89900F15C2"/>
+</associations>
+</Column>
+<Column name="DateCalculation" id="593BD8BC-8FB1-249B-AF03-B08F081B34E4">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:09:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ" id="507E45BC-C34F-8D0F-C4F9-7556DE79A191">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:34:25 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AFD234C-089A-EDB1-9483-3CE503373E37" referredColumn="C0CEDB8D-2F51-92F8-5E7F-FBDE67636AAB"/>
+</associations>
+</Column>
+<Column name="Target_Number" id="EE4C8372-882A-FD7D-A9D5-B452C3DA0A8D">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:09:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calculation" id="F7CB555D-684A-F203-6C9E-5A97BBC48C74">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:09:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0.00</defaultValue>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BalanceBefore" id="DDF48539-D624-A537-F72E-045DDFF2AF21">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:09:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,9,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BalanceAfter" id="AF795854-2436-CC72-DE9C-8AB8EEA8171F">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-12 16:09:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,9,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7570C0BB-F9B0-4478-2ED6-D13CF4E40EC7" name="ListConnections_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:53:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF3E3EA-3C08-5F1F-BD17-415043C50C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D921C9BF-17AC-D66E-8182-0D509090E4F0" name="ListConnections__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:39:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF3E3EA-3C08-5F1F-BD17-415043C50C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B42D2275-D552-554D-E44E-ACEBA11F3E6E" name="ListConnections_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 13:14:59 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF034B94-1C1A-8AFB-24A5-3F02B08AE1BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="957F70C4-8462-CF05-6E24-C2769072735D" name="ListConnections_Typ_FK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:34:25 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="507E45BC-C34F-8D0F-C4F9-7556DE79A191"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B47FA1-19DE-EBC0-39A8-B7FE8502EE3D" name="Usluga">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:46:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="73E1B4FF-7E57-CA3B-6787-F17AE71D45D8">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:46:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="9CC706CA-A905-7919-0D1F-55D62725FE70">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:46:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="602973B7-7F65-3640-927E-4591176C0C76" name="Usluga_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-27 19:48:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73E1B4FF-7E57-CA3B-6787-F17AE71D45D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6F67668-D208-2CC9-841B-9305E6C01290" name="Usluga__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:40:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73E1B4FF-7E57-CA3B-6787-F17AE71D45D8"/>
+<colUsage columnID="9CC706CA-A905-7919-0D1F-55D62725FE70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

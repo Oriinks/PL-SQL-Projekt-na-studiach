@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FE295BF-B175-5500-C390-5437F2D9D281" name="Product">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:41:46 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_Id" id="E97351A5-6274-E66F-7F06-3996C6B7AB30">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:48:57 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="8024A814-AA53-706E-1FAC-FF128C85C443">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:48:57 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="7909E52D-E9D2-7DE9-343E-C90ED07EBE0C">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:52:34 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producent" id="EB81B7BE-C2C6-997D-5132-ED2982CB1C15">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:52:34 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RokProdukcji" id="F3417D27-41C7-98D1-43AC-997B3ED67ECE">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:52:34 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc" id="A97EE5C8-899D-5700-3CD6-2ADA71FD6BD4">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 12:55:19 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F4DDE16-D912-1677-E68A-0AF92751A99E" name="Product_PK">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-16 11:48:57 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97351A5-6274-E66F-7F06-3996C6B7AB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6C70D19-C048-CF26-4643-8879F0BCB3E9" name="Product__UN">
+<createdBy>Orinks</createdBy>
+<createdTime>2019-04-29 06:29:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97351A5-6274-E66F-7F06-3996C6B7AB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
